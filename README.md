@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./docs/logo.png" alt="Driftspace Logo" width="96" />
+<img src="./public/logo.png" alt="Driftspace Logo" width="96" />
 
 # Driftspace
 
