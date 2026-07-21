@@ -1,11 +1,7 @@
-# Mind Space
-
+# Driftspace
 A personal mind organizer — a freestyle canvas dashboard for notes, todos, timers, habits, and more.
-
 Arrange widgets freely on an infinite, zoomable canvas. Organize your thoughts across multiple sheets. Everything is local — no accounts, no servers, no cloud.
-
 ## Features
-
 - **Infinite Canvas** — pan, zoom, snap-to-grid. Navigate with drag, scroll wheel, or Space+drag.
 - **Sheets** — multiple named canvases organized in a tab bar. Add, rename, duplicate, reorder, delete.
 - **Widgets** — add and arrange any mix of:
@@ -25,33 +21,23 @@ Arrange widgets freely on an infinite, zoomable canvas. Organize your thoughts a
 - **Copy / Paste** — across sheets and canvases.
 - **Light / Dark / System** theme toggle.
 - **Persistent** — all data saved to localStorage. Debounced writes, flushes on tab close.
-
 ## Tech Stack
-
 [Next.js](https://nextjs.org/) (App Router) · [React](https://react.dev/) · [TypeScript](https://www.typescriptlang.org/) · [Tailwind CSS](https://tailwindcss.com/) v4 · [Zustand](https://github.com/pmndrs/zustand) (state + persist) · [Radix UI](https://www.radix-ui.com/) · [Lucide](https://lucide.dev/) icons · [Frimousse](https://github.com/penx/frimousse) (emoji picker)
-
 ## Getting Started
-
 ```bash
 npm install
 npm run dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000).
-
 ## Scripts
-
 | Command | Description |
 |---------|-------------|
 | `npm run dev` | Start development server |
 | `npm run build` | Production build |
 | `npm run start` | Start production server |
 | `npm run lint` | Run ESLint |
-
 ## Architecture
-
-Mind Space is a fully client-side single-page application. There is no backend, no database, and no API routes. All state is managed by a Zustand store persisted to localStorage.
-
+Driftspace is a fully client-side single-page application. There is no backend, no database, and no API routes. All state is managed by a Zustand store persisted to localStorage.
 ```
 page.tsx
 ├── SheetSidebar (tab bar for sheet management)
@@ -63,7 +49,5 @@ page.tsx
             ├── WidgetToolbar (title, collapse, menu)
             └── WidgetComponent (NoteWidget | TodoWidget | ...)
 ```
-
 ## License
-
 MIT
