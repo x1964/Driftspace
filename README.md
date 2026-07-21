@@ -1,7 +1,8 @@
 <div align="center">
 
-<img src="./public/logo.png" alt="Driftspace Logo" width="96" />
-
+<p align="center">
+  <img src="public/logo.png" alt="Driftspace Logo" width="96">
+</p>
 # Driftspace
 
 **A freestyle canvas dashboard for notes, todos, timers, and habits — all in one infinite, zoomable space.**
